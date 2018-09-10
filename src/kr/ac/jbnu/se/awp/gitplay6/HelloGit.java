@@ -1,4 +1,4 @@
-package kr.ac.jbnu.se.awp.gitplay0;
+package kr.ac.jbnu.se.awp.gitplay6;
 
 public class HelloGit {
 	public static void main(String[] args) {
