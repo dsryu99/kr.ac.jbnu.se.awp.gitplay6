@@ -1,0 +1,29 @@
+body {
+	text-align: center;
+	margin:0;
+}
+
+.navbar__name {
+	font-size:50px;
+}
+
+.navbar p {
+	font-size:40px;
+}
+
+.login i {
+	align-items: center;
+	font-size: 50px;
+	padding: 10px;
+}
+
+input {
+	width:200px;
+	height:30px;
+	font-size:20px;
+}
+
+botton{
+	font-size: 50px;
+	margin:10px;
+}
