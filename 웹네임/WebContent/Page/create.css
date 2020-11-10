@@ -44,16 +44,31 @@ a {
 }
 
 .main{
+	text-align:center;
 	font-size: 50px;
 }
 
 .user__info {
-	text-align:center;
+	text-align:right;
 	font-size:30px;
 }
 
 .user__info input{
-	width:200px;
+	position:absolute;
+	right:38%;
+	width:250px;
 	height:30px;
 	font-size:20px;
+}
+
+.summit {
+	position: absolute;
+	right:35%;
+	left:50%;
+}
+
+.text {
+	position:relative;
+	bottom:3px;
+	right:58%;
 }
