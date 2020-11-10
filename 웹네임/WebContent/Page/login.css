@@ -4,11 +4,12 @@ body {
 }
 
 .navbar {
+	height:60px;
     background-color: black;
-    color:white;
 }
 
-.navbar a{
+.navbar__name a{
+	font-size:50px;
 	color:white;
 	position:absolute;
 	left: 10px;	
@@ -16,7 +17,7 @@ body {
 
 .navbar__name {
 	color:white;
-	font-size:50px;
+	font-size:40px;
 }
 
 .navbar p {	

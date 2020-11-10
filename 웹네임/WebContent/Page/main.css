@@ -45,23 +45,28 @@ a {
 }
 
 .main {
+	height:100%;
     background-color: rgb(250, 239, 218);
-    display: flex;
-    text-align:center;
 }
 
 .box {
-    margin: 10px;
-    width: 250px;
-    height: 250px;
-    background-color: cadetblue;
+	border-radius: 20px;
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+    background-color: #A9E2F3;
+}
+.main div{
+	display:flex;
+	justify-content: center;
 }
 
 .main i {
     display: flex;
+    margin:20px;
     padding: 10px;
     color: white;
-    font-size: 150px;
+    font-size: 200px;
     align-items: center;
     justify-content: center;
 }
@@ -69,7 +74,7 @@ a {
 .main p {
     display: flex;
     margin: 10px;
-    font-size: 30px;
+    font-size: 50px;
     color: white;
     justify-content: center;
     align-items: center;
