@@ -44,33 +44,6 @@ a {
     padding-right: 8px;
 }
 
-.main {
-    background-color: rgb(250, 239, 218);
-    display: flex;
-    text-align:center;
-}
-
-.box {
-    margin: 10px;
-    width: 250px;
-    height: 250px;
-    background-color: cadetblue;
-}
-
-.main i {
-    display: flex;
-    padding: 10px;
-    color: white;
-    font-size: 150px;
-    align-items: center;
-    justify-content: center;
-}
-
-.main p {
-    display: flex;
-    margin: 10px;
-    font-size: 30px;
-    color: white;
-    justify-content: center;
-    align-items: center;
+.main{
+	background-color:lightblue;
 }
