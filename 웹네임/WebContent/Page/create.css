@@ -7,6 +7,7 @@ a {
     color: white;
 }
 .navbar {
+	height:100px;
     display: flex;
     align-items: center;
     background-color: black;
@@ -44,6 +45,7 @@ a {
 }
 
 .main{
+	margin:30px;
 	text-align:center;
 	font-size: 50px;
 }
@@ -63,12 +65,11 @@ a {
 
 .summit {
 	position: absolute;
-	right:35%;
-	left:50%;
+	right:43%
 }
 
 .text {
 	position:relative;
 	bottom:3px;
-	right:58%;
+	right:55%;
 }
