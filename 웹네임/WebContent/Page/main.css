@@ -47,6 +47,7 @@ a {
 .main {
     background-color: rgb(250, 239, 218);
     display: flex;
+    align-items:center;
 }
 
 .box {
@@ -59,7 +60,7 @@ a {
 .main i {
     display: flex;
     padding: 10px;
-    color: rgb(206, 66, 15);
+    color: white;
     font-size: 150px;
     align-items: center;
     justify-content: center;
