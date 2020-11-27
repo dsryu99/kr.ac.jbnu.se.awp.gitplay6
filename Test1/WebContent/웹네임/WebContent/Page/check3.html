@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="check.css">
+	<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+    <title>검사하기</title>
+    <script src="https://kit.fontawesome.com/4d7b126d2f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__name">
+            <a href="main.html">HOBBTI</a>
+        </div>
+
+        <ul class="navbar__active">
+            <li><a href="check.html"><span style="color: red;">MBTI 검사하기</span></a></li>
+            <li><a href="analysis.html">MBTI 분석하기</a></li>
+            <li><a href="">친구추천</a></li>
+            <li><a href="play.html">개인활동추천</a></li>    
+        </ul>
+
+        <ul class="navbar__login">
+            <li><a href="login.html">로그인</a></li>
+            <li><i class="far fa-user"></i></li>
+        </ul>
+    </nav>
+
+    <main class="test">
+        <div class="test__info">
+            <div class="image"><img src="img/test.png" width=300px; height=250px;></div>
+            <div class="info">MBTI 검사하기
+                <p>MBTI®는 융(Carl G. Jung)이 설명한 유형이론을 바탕으로 모녀관계인 Briggs와 Myers가 개발한 성격유형 지표로서, 자신과 타인의 성격 역동을 이해하는 전세계적으로 가장 많이 활용되는 성격유형 검사입니다. MBTI®가 개발된 지 50년 이상 되었지만 여전히 연간 평균 200만명씩 검사를 실시하고 있으며, 미국 fortune지가 선정한 100대 기업 중 98개 기업에서도 MBTI®를 활용할 정도로 전 세계적으로 가장 많이 사용되는 공신력 있는 심리검사 도구입니다.</p>
+                <p>질문을 읽어보시고 본인한테 최대한 맞는 답변을 선택해주세요</p>
+            </div>
+            </div>
+
+		<div class="test__check">
+        <form method="post" action="check3.jsp">
+            <div class="text">나는 원칙을 준수한다.</div>
+            <p><span style="color: #db7b58;">전혀아니다 </span><input id="A1" type="radio" name="first" value="-2"><input id="A2" type="radio" name="first" value="-1"><input id="A3" type="radio" name="first" value="0"><input id="A4" type="radio" name="first" value="1"><input id="A5" type="radio" name="first" value="2"><span style="color: #3cb56c;">매우 그렇다</span></p>
+            <div class="text">상대방의 입장보다 나의 입장이 중요하다.</div>
+            <p><span style="color: #db7b58;">전혀아니다 </span><input id="A1" type="radio" name="second" value="-2"><input id="A2" type="radio" name="second" value="-1"><input id="A3" type="radio" name="second" value="0"><input id="A4" type="radio" name="second" value="1"><input id="A5" type="radio" name="second" value="2"><span style="color: #3cb56c;">매우 그렇다</span></p>
+            <div class="text">사람을 위주로 일을 하기보다 정해진 일을 위주로 진행한다.</div>
+            <p><span style="color: #db7b58;">전혀아니다 </span><input id="A1" type="radio" name="third" value="-2"><input id="A2" type="radio" name="third" value="-1"><input id="A3" type="radio" name="third" value="0"><input id="A4" type="radio" name="third" value="1"><input id="A5" type="radio" name="third" value="2"><span style="color: #3cb56c;">매우 그렇다</span></p>
+               <div class="text">나는 엄격하다.</div>
+            <p><span style="color: #db7b58;">전혀아니다 </span><input id="A1" type="radio" name="fourth" value="-2"><input id="A2" type="radio" name="fourth" value="-1"><input id="A3" type="radio" name="fourth" value="0"><input id="A4" type="radio" name="fourth" value="1"><input id="A5" type="radio" name="fourth" value="2"><span style="color: #3cb56c;">매우 그렇다</span></p>
+               <div class="text">나는 냉철한 이성으로 판단한다.</div>
+            <p><span style="color: #db7b58;">전혀아니다 </span><input id="A1" type="radio" name="fifth" value="-2"><input id="A2" type="radio" name="fifth" value="-1"><input id="A3" type="radio" name="fifth" value="0"><input id="A4" type="radio" name="fifth" value="1"><input id="A5" type="radio" name="fifth" value="2"><span style="color: #3cb56c;">매우 그렇다</span></p>
+               <div class="text">마음이 따뜻하다는 소리보다 냉철하다는 말을 주로 듣는다.</div>
+            <p><span style="color: #db7b58;">전혀아니다 </span><input id="A1" type="radio" name="sixth" value="-2"><input id="A2" type="radio" name="sixth" value="-1"><input id="A3" type="radio" name="sixth" value="0"><input id="A4" type="radio" name="sixth" value="1"><input id="A5" type="radio" name="sixth" value="2"><span style="color: #3cb56c;">매우 그렇다</span></p>
+               <div class="text">어떤 일이 생길때 따질 것은 따지는 편이다.</div>
+            <p><span style="color: #db7b58;">전혀아니다 </span><input id="A1" type="radio" name="seventh" value="-2"><input id="A2" type="radio" name="seventh" value="-1"><input id="A3" type="radio" name="seventh" value="0"><input id="A4" type="radio" name="seventh" value="1"><input id="A5" type="radio" name="seventh" value="2"><span style="color: #3cb56c;">매우 그렇다</span></p>
+               <div class="text">여유롭게 진행하기보다 빨리빨리 하는 편이다.</div>
+            <p><span style="color: #db7b58;">전혀아니다 </span><input id="A1" type="radio" name="eighth" value="-2"><input id="A2" type="radio" name="eighth" value="-1"><input id="A3" type="radio" name="eighth" value="0"><input id="A4" type="radio" name="eighth" value="1"><input id="A5" type="radio" name="eighth" value="2"><span style="color: #3cb56c;">매우 그렇다</span></p>
+               <div class="text">나는 과정보다 결과가 중요하다 </div>
+            <p><span style="color: #db7b58;">전혀아니다 </span><input id="A1" type="radio" name="ninth" value="-2"><input id="A2" type="radio" name="ninth" value="-1"><input id="A3" type="radio" name="ninth" value="0"><input id="A4" type="radio" name="ninth" value="1"><input id="A5" type="radio" name="ninth" value="2"><span style="color: #3cb56c;">매우 그렇다</span></p>
+            <p class="summit"><input type="submit" value="제출하기"></p>
+        </form>
+		</div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,141 @@
+body {
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.navbar {
+	height:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.navbar__name {
+    color: white;
+    font-size: 24px;
+    margin: 8px;
+    padding-left: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar__active {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar__active li {
+    padding: 8px 12px;
+}
+
+.navbar__login { 
+    list-style: none;
+    display: flex;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar__login li{
+    padding: 8px;
+}
+
+.navbar__login i {
+    color:white;
+    padding-right: 8px;
+}
+
+.info2 {
+	height:550px;
+    background-color: #02a7df;
+	display: flex;
+	color : #ffffff;
+	align-items:center;
+	margin: 0px 0px 50px 0px;
+	font-family: 'Noto Sans KR', sans-serif;
+	}
+
+.test__info {
+	height:550px;
+    background-color: #009f86;
+	display: flex;
+	color : #ffffff;
+	align-items:center;
+	margin: 0px 0px 50px 0px;
+	font-family: 'Noto Sans KR', sans-serif;
+	}
+	
+	.test__info2 {
+	height:550px;
+    background-color: #02a7df;
+	display: flex;
+	color : #ffffff;
+	align-items:center;
+	margin: 0px 0px 50px 0px;
+	font-family: 'Noto Sans KR', sans-serif;
+	}
+	
+		.test__info3 {
+	height:550px;
+    background-color: #f4c631;
+	display: flex;
+	color : #ffffff;
+	align-items:center;
+	margin: 0px 0px 50px 0px;
+	font-family: 'Noto Sans KR', sans-serif;
+	}
+	
+	
+.test image {
+	margin:30px 30px 30px 100px;
+	font-size: 400px;
+}
+
+.info {
+	align-items: center;
+	font-size: 50px;
+	color : #ffffff;
+	margin:30px 100px 30px 3px;
+}
+.info p{
+	color : #ffffff;
+	font-size: 20px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.test__check {
+	text-align: center;
+	font-family: 'Noto Sans KR', sans-serif;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.test__check input {
+	margin:20px 30px 80px 50px;
+	font-size: 10px;
+	width: 40px;
+	height: 40px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.summit input{
+	width:200px;
+	height: 50px;
+	font-size: 20px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.text{
+	margin:20px;
+	right:34%;
+	top:88%;
+	font-size: 30px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+span {
+	font-family: 'Noto Sans KR', sans-serif;
+		
+}

@@ -16,23 +16,24 @@
 <body>
     <nav class="navbar">
         <div class="navbar__name">
-        <a href="main.html">웹 네임</a>
+        <a href="main.html">HOBBTI - 로그인</a>
         </div>
-        <span>로그인</span>
+
     </nav>
 
     <main class="login">
-        <form method="post" id="authForm" action="#"></form>
+        <form method="post" id="authForm" action="loginCheck.jsp">
         <div class="login__id">
             <i class="fas fa-user"></i>
-            <span><input type="text" name="id" size="20"></span>
+            <span><input type="text" name="userid" size="20"></span>
         </div>
         <div class="login__password">
             <i class="fas fa-key"></i>
-            <span><input type="password" name="password" size="20"></span>
+            <span><input type="password" name="userPassword" size="20"></span>
         </div>
         <div class="button"><button type="submit" >로그인</button>
         <a href="create.html"><button type="button">회원가입</button></a></div>
+        </form>
     </main>
 </body>
 </html>

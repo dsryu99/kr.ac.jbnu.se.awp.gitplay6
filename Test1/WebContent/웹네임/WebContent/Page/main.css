@@ -1,0 +1,153 @@
+body {
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.navbar {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar__name {
+    color: white;
+    font-size: 24px;
+    margin: 8px;
+    padding-left: 20px;
+        font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar__active {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+        font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar__active li {
+    padding: 8px 12px;
+        font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar__login {
+    list-style: none;
+    display: flex;
+    padding: 12px;
+        font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar__login li{
+    padding: 12px;
+        font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar__login i {
+    color:white;
+    padding-right: 8px;
+        font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.main {
+	height:100%;
+    background-color: #f1f3f2;
+        font-family: 'Noto Sans KR', sans-serif;
+}
+
+.main_introduction {
+	height:550px;
+	background-color:#f8d09c;
+	display: flex;
+    font-size: 10px;
+    color: black;
+	align-items:center;
+	margin: 0px 0px 50px 0px;
+	    font-family: 'Noto Sans KR', sans-serif;
+	}
+
+.introduction_image{
+	margin:30px 30px 30px 100px;
+}
+
+.introduction_text{
+	align-items: center;
+	font-size: 30px;
+	color: #000000;
+	margin:30px 100px 30px 3px;
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+
+.box1 {
+	border-radius: 20px;
+	padding: 20px;
+    margin: 20px;
+    width: 400px;
+    height: 350px;
+    background-color: #009f86;
+        font-family: 'Noto Sans KR', sans-serif;
+}
+
+.box2 {
+	border-radius: 20px;
+	padding: 20px;
+    margin: 20px;
+    width: 400px;
+    height: 350px;
+    background-color: #5e5e5e;
+        font-family: 'Noto Sans KR', sans-serif;
+}
+
+.box3 {
+	border-radius: 20px;
+	padding: 20px;
+    margin: 20px;
+    width: 400px;
+    height: 350px;
+    background-color: #02a7df;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.box4 {
+	border-radius: 20px;
+	padding: 20px;
+    margin: 20px;
+    width: 400px;
+    height: 350px;
+    background-color: #f4c631;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.main div{
+	display:flex;
+	justify-content: center;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.main i {
+    display: flex;
+    margin:20px;
+    padding: 10px;
+    color: white;
+    font-size: 200px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.main p {
+    display: flex;
+    margin: 10px;
+    font-size: 50px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
